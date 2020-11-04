@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": "svd_tiger",
     "copy-from": "rifle_semi",
     "looks_like": "ar15",
@@ -44,4 +45,24 @@
         "item_restriction": [ "SVDmag", "SVDsmallmag", "PrototypeSVDmag" ]
       }
     ]
+  },
+  {
+    "id": "762R_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "SVDmag" },
+    "//": "Provisional.",
+    "description": "a standard magazine made for the SVD family.",
+    "weight": "100 g",
+    "volume": "110ml",
+    "price": 6000,
+    "price_postapoc": 450,
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "ammo_type": [ "762R" ],
+    "capacity": 10,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 10 } } ]
   }
+]
