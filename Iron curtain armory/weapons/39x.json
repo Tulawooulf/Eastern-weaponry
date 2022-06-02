@@ -1,0 +1,203 @@
+[
+
+  {
+    "id": "AS_VAL",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "AS_VAL" },
+	"//": "the slient auto tube"
+    "description": "A subsonic assult rifle meant to deal with body armor. It offer very high fire rate and low recoil whilst still packing a deadly punch ",
+    "weight": "2500 g",
+    "volume": "3310 ml",
+    "longest_side": "938 mm",
+    "price": 234300,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "]",
+    "color": "dark_gray",
+    "ammo": [ "39x" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 1300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "barrel_volume": "250 ml",
+    "built_in_mods": [ "folding_stock","VAL_suppressor" ],
+	"valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+	  [ "improved baffle", 1 ]
+    "weapon_category": [ "AUTOMATIC_RIFLES" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "val20",
+		  "val10",
+		  "val30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SR_3m",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "SR_3m" },
+	"//": "A AS Val that you can fire without it suppressor. "
+    "description": "A subsonic assult rifle heavily based off of the AS Val. Very compact for the ammount of firepower it can dish out. Due to the price, not alot of them were made and less made it to the US before the cataclysm ",
+    "weight": "2000 g",
+    "volume": "3310 ml",
+    "longest_side": "640 mm",
+    "price": 234300,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [ "steel", "plastic" ],
+    "symbol": "]",
+    "color": "dark_gray",
+    "ammo": [ "39x" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 1300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "barrel_volume": "250 ml",
+    "built_in_mods": [ "folding_stock" ],
+	"valid_mod_locations": [
+      [ "accessories", 4 ],
+      [
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    "weapon_category": [ "AUTOMATIC_RIFLES" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "val20",
+		  "val10",
+		  "val30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VSS_US",
+    "copy-from": "rifle_semi",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "VSS_vintorez_patterned" },
+	"//": "traded it full auto capabilities for it coming in with better sound suppression right out of the box"
+    "description": "The us-made version of the VSS. Practically a copy of the vintorez, but can only shoot in semi. Also come in with picatinny rail preinstalled and improved baffle  ",
+    "weight": "2600 g",
+    "volume": "3010 ml",
+    "longest_side": "894 mm",
+    "price": 234300,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "symbol": "]",
+    "color": "dark_gray",
+    "ammo": [ "39x" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 1300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "barrel_volume": "250 ml",
+    "built_in_mods": [ "VAL_suppressor","improved_baffle" ],
+	"valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+	  [ "improved baffle", 1 ]
+    ],
+    "weapon_category": [ "AUTOMATIC_RIFLES" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "val10",
+		  "val20",
+		  "val30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VSS",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "VSS_vintorez" },
+	"//" : "thumbhole stock are sexy. Just not the californian kind. Like anything gun-related that come from california. "
+    "description": "A subsonic sniper rifle meant to deal with body armor very quietly. It offer very high fire rate and low recoil whilst still packing enough order to pierce body armor. ",
+    "weight": "2600 g",
+    "volume": "3010 ml",
+    "longest_side": "894 mm",
+    "price": 234300,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "symbol": "]",
+    "color": "dark_gray",
+    "ammo": [ "39x" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 1300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "barrel_volume": "250 ml",
+    "built_in_mods": [ "VAL_suppressor" ],
+		"valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+	  [ "muzzle", 4 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+	  [ "improved baffle", 1 ]
+    ],
+    "weapon_category": [ "AUTOMATIC_RIFLES" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "val10",
+		  "val20",
+		  "val30"
+        ]
+      }
+    ]
+  }
+]

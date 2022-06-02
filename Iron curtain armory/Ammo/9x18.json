@@ -1,0 +1,37 @@
+[
+  {
+    "id": "bizonmag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "PP-19 Bizon 64-round helical magazine" },
+    "description": "A 64-round helical magazine for use with the PP-19 Bizon SMG.",
+    "weight": "500 g",
+    "volume": "590 ml",
+    "price": 9920,
+    "price_postapoc": 500,
+    "material": [ "steel","plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9x18" ],
+    "reload_time": 160,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 64 } } ]
+  },
+  {
+    "id": "apsmag",
+    "type": "MAGAZINE",
+    "name": { "str": "APS 20-round magazine" },
+    "description": "A simple steel mag designed to hold 20 round of 9x18 for hte Stechkin automatic pistol. Like the Makarov, the mag have cutout for the user to see the ammo they have left inside the mag",
+    "weight": "105 g",
+    "volume": "300 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9x18" ],
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 20 } } ]
+  },
+  ]

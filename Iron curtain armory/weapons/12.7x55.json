@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ash12.7",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str_sp": "ASH 12.7" },
+    "description": "Designed high risk law enforcement environment where you need both high stopping power at a short range to avoid collateral damage. The Ash 12.7 use the 12.7x55 heavy subsonic ammunition. Capable of taking a 10 round or 20 round mag",
+    "weight": "6000 g",
+    "volume": "4011 ml",
+    "longest_side": "1020 mm",
+    "price": 350000,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "12.7x55" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 3000,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "barrel_volume": "500 ml",
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ashmag,""ashbigmag" ] } ]
+  },
+  {
+    "id": "rsh12.7",
+    "copy-from": "pistol_revolver",
+    "type": "GUN",
+    "name": { "str_sp": "RSH 12.7" },
+    "description": "A heavy 5 round revolver that fire the same cartridges as the ASH 12.7 battle rifle. Due to it firing from the bottom chamber, It recoil are alots more managable than one would expect from such a powerful cartridge.",
+    
+	"weight": "2200 g",
+    "volume": "800 ml",
+    "longest_side": "36 cm",
+    "price": 86100,
+    "price_postapoc": 5050,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "12.7x55" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 280,
+    "durability": 8,
+    "blackpowder_tolerance": 56,
+    "clip_size": 5,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "12.7x55": 5 },
+        "allowed_speedloaders": [ "12.7_speedloader5" ]
+      }
+    ]
+  }
+]

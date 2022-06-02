@@ -1,0 +1,27 @@
+[
+  {
+    "id": "vks12.7",
+    "copy-from": "rifle_manual",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str_sp": "VKS 12.7" },
+    "description": "Designed with the same requirement as the VSS but with more power than the 9x39 can provide.Feature a Very big integral suppressor",
+    "weight": "7000 g",
+    "volume": "5011 ml",
+    "longest_side": "1120 mm",
+    "price": 350000,
+    "price_postapoc": 8500,
+	"built_in_mods": [ "vks_suppressor","bipod" ]
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "12.7x55L" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 100,
+    "durability": 8,
+    "barrel_volume": "500 ml",
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "vksmag" ] } ]
+  },
+]
