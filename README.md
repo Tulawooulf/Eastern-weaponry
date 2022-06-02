@@ -1,2 +1,2 @@
-# Eastern-weaponry
-wouulf first step in making mod
+# Iron-Curtain armory
+Import new gun from the former ok-ish soviet yunyun
